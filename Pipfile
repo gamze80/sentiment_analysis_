@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+werkzeug = "*"
+python-dotenv = "*"
+waitress = "*"
+paste = "*"
+numpy = "*"
+scipy = "*"
+pandas = "==1.3.0"
+fastapi = {version = "==0.61.2", extras = ["all"]}
+sqlalchemy = "*"
+geoalchemy2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
