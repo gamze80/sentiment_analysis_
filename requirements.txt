@@ -11,3 +11,4 @@ sqlalchemy
 geoalchemy2
 torch
 transformers
+gdown
