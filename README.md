@@ -11,8 +11,8 @@ cp .env.example .env
 pip install -r requirements.txt
 ```
 ## Running
-- Run project by `uvicorn sentiment_backend_service.main:app --reload --host=0.0.0.0`
-- Check the documentation at http://0.0.0.0:8000/v1/sentiment_backend/docs
+- Run project by `uvicorn sentiment_backend_service.main:app --reload`
+- Check the documentation at [http://0.0.0.0:8000/v1/sentiment_backend/docs](http://127.0.0.1:8000/v1/Analysis/docs)
 
 # What is next?
 ## Routes and API wise
